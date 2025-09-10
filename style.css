@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  color: #333;
+}
+
+h1, h2 {
+  margin-top: 20px;
+  color: #222;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #007BFF;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Inputs */
+input[type="text"] {
+  padding: 12px;
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Table Styling */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 90%;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #007BFF;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tr:hover {
+  background: #eef3ff;
+}
+
+/* Attendance Result */
+#attendanceResult {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
